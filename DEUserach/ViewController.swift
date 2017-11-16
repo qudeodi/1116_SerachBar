@@ -96,9 +96,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.textLabel?.text = specArr![indexPath.row]
         }
         
-        //cell.textLabel?.text = arrayA[indexPath.row]
-        
-        //cell.textLabel?.text = self.searchCon.isActive ? fillteredArray[indexPath.row] : self.twiceNames[indexPath.row]
         
         return cell
     }
